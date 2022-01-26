@@ -1,4 +1,4 @@
-const { options } = require('./DB/mysql.db');
+const { options } = require('./dataBase/DB');
 const knex = require('knex')(options);
 
 knex.schema.createTable('products', table => {

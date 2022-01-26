@@ -2,7 +2,7 @@
 const { POINT_CONVERSION_COMPRESSED } = require('constants');
 const Producto = require('../producto.js');
 const { Router } = require("express");
-const { options } = require('../DB/mysql.db');
+const { options } = require('../dataBase/DB');
 const router = Router();
 const knex = require('knex')(options);
 
