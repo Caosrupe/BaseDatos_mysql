@@ -18,7 +18,7 @@ app.use('/carrito', require("./routes/carritoRoutes"));
 // default
 
 app.get("/", (req, res)=> {
-    res.send("hello");
+    res.send("Carlos Ruiz");
 })
 
 // Server
